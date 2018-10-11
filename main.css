@@ -3,10 +3,14 @@
 } */
 /*  Testing CSS functionality in connection
 with HTML and Javascript */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
 #beyjeopardy {
-    font-family: monospace;
-    border: solid;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
     text-align: center;
+    background-color: blue;
+    border: solid;
 }
 
 
@@ -60,36 +64,75 @@ with HTML and Javascript */
 }
 
 .onehundreds{
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    position: relative;
     border: solid;
-    height: 100px;
+    height: 200px;
     grid-column: (1/2);
+    box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
+#bey1{
+    /* background-color: blue; */
+    cursor: pointer;
+    transition: all 0.8s ease;
+    position: relative;
+}
+#bey1.flipped{
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+#bey2{
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    position: relative;
+}
+#bey2.flipped{
+    /* background-color: blue; */
+    cursor: pointer;
+    /* transition: all 0.8s ease; */
+    transform-style: preserve-3d;
+
+    transform: rotateY(180deg);
+    /* display: none; */
+}
+
+
 .twohundreds{
     border: solid;
-    height: 100px;
+    height: 200px;
     grid-column: (2/3);
 }
 .threehundreds {
     border: solid;
-    height: 100px;
+    height: 200px;
     grid-column: (3/4);
 }
 .fourhundreds{
     border: solid;
-    height: 100px;
+    height: 200px;
     grid-column: (2/3);
 }
 .fivehundreds {
     border: solid;
-    height: 100px;
+    height: 200px;
     grid-column: (3/4);
 }
 
 .finaljep {
     border: solid;
     text-align: center;
-    height: 100px;
+    height: 200px;
 }
-#bey1 {
-    background-color: blue;
-}
+
+
+
+
+/* .onehundreds.front,
+.onehundreds.back {
+    position: absolute;
+    backface-visibility: hidden;
+} */

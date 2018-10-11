@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <script defer src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -49,28 +52,52 @@
     <!-- create divs for each card  -->
     <div class="questioncards">
         <!-- seperated category questions by classes/id's -->
-        <div id="beyonceQs">
-            <div class="onehundreds" id="bey1"> 100 </div>
-            <div class="twohundreds" id="bey2"> 200 </div>
-            <div class="threehundreds" id="bey3"> 300 </div>
-            <div class="fourhundreds" id="bey4"> 400 </div>
-            <div class="fivehundreds" id="bey5"> 500 </div>
+        <div class="beyonceQs">
+
+            <div class="onehundreds">
+
+            <div id="bey1">
+                        <h2> 100 </h2>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                PUSH
+                              </button>
+            </div>
+
+            </div>
+
+
+            <div class="twohundreds" id="bey2"> <h2> 200 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+            <div class="threehundreds" id="bey3"> <h2> 300 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+  
         </div>
 
-        <div id="sashaFierceQs">
-            <div class="onehundreds" id="sF1"> 100 </div>
-            <div class="twohundreds" id="sF2"> 200 </div>
-            <div class="threehundreds" id="sF3"> 300 </div>
-            <div class="fourhundreds" id="sF4"> 400 </div>
-            <div class="fivehundreds" id="sF5"> 500 </div>
+        <div class="sashaFierceQs">
+            <div class="onehundreds" id="sF1"> <h2> 100 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+            <div class="twohundreds" id="sF2"> <h2> 200 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+            <div class="threehundreds" id="sF3"> <h2> 300 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+    
         </div>
 
-        <div id="yonceQs">
-            <div class="onehundreds" id="yonce1"> 100 </div>
-            <div class="twohundreds" id="yonce2"> 200 </div>
-            <div class="threehundreds" id="yonce3"> 300 </div>
-            <div class="fourhundreds" id="yonce4"> 400 </div>
-            <div class="fivehundreds" id="yonce5"> 500 </div>
+        <div class="yonceQs">
+            <div class="onehundreds" id="yonce1"> <h2> 100 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+            <div class="twohundreds" id="yonce2"> <h2> 200 </h2><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
+            <div class="threehundreds" id="yonce3"> <h2> 300 </h2> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    PUSH
+                  </button> </div>
         </div>
 
     </div>
@@ -78,10 +105,9 @@
     <div class="finaljep"> FINAL JEOPARDY !!! </div>
 
 
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
 
 </body>
 
