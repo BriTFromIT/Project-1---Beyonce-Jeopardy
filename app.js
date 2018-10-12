@@ -19,17 +19,26 @@ let yonceOne = document.querySelector("#yonce1");
 let yonceTwo = document.querySelector("#yonce2");
 let yonceThree = document.querySelector("#yonce3");
 let score1 = document.querySelector("#score1");
-let score2 = document.querySelector("#score1");
+let score2 = document.querySelector("#score2");
 let sonicCoins = 0;
 let h7p1 = document.querySelector("#h7p1")
 let h7p2 = document.querySelector("#h7p2")
+
+
 
 h7p1.addEventListener('click', function () {
     sonicCoins += 100
     console.log(sonicCoins)
     score1.innerHTML = sonicCoins
     // document.write('score1')
-});
+})
+h7p2.addEventListener('click', function () {
+    sonicCoins += 100
+    console.log(sonicCoins)
+    score2.innerHTML = sonicCoins
+    // document.write('score1')
+})
+
     // else {
     //     h7p2.addEventListener("click", function(event) {
     //     sonicCoins += 100
