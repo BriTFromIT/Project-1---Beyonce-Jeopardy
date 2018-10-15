@@ -35,3 +35,4 @@ Used Bootstrap
 - animations and more questions 
 - wanted to add the daily double 
 - wanted to add the animation for the final jeopardy
+- added an onclick option to reveal the answers
