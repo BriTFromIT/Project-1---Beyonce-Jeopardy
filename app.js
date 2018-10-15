@@ -33,6 +33,7 @@ bey1p2.addEventListener('click', function () {
     score2.innerHTML = sonicCoins2
 });
 
+// each one will add points to either player's score and keep track 
 
 let bey2p1 = document.querySelector("#bey2p1");
 let bey2p2 = document.querySelector("#bey2p2");
