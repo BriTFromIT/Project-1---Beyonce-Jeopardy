@@ -33,21 +33,21 @@
 
         <div id="score1">
             <h7> 0 </h7>
-        <br>
-        <h2>
-            <div id="player1"> PLAYER 1 </div>
-        </h2>
-</div> 
+            <br>
+            <h2>
+                <div id="player1"> PLAYER 1 </div>
+            </h2>
+        </div>
         <br>
 
         <div id="score2">
             <h7> 0 </h7>
-         <br>
+            <br>
 
-        <h2>
-            <div id="player2"> PLAYER 2 </div>
-        </h2>
-</div>
+            <h2>
+                <div id="player2"> PLAYER 2 </div>
+            </h2>
+        </div>
     </div>
 
     <!-- create div for the 3 categories -->
@@ -74,7 +74,7 @@
 
 
             <div class="onehundreds">
-            <!-- QUESTION 1 FOR BEYONCE CATEGORY  -->
+                <!-- QUESTION 1 FOR BEYONCE CATEGORY  -->
                 <div id="bey1">
                     <h2> 100 </h2>
                     <!-- Button trigger modal -->
@@ -93,7 +93,12 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <!-- <audio src="../Project-1---Beyonce-Jeopardy/media/firstbeyclip.m4a"> <button> PUSH </button></audio> -->
+
+                                    <audio controls>
+                                        <source src="/media/firstbeyclip.m4a" type="audio/ogg">
+                                    </audio>
+
+
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" id="bey1p1" data-dismiss="modal"> Player
@@ -107,7 +112,7 @@
                 </div>
 
             </div>
-        <!-- QUESTION NUMBER 2 FOR BEYONCE CATEGORY  -->
+            <!-- QUESTION NUMBER 2 FOR BEYONCE CATEGORY  -->
 
             <div class="twohundreds" id="bey2">
                 <h2> 200 </h2>
@@ -120,13 +125,18 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel"> NAME THAT ALBUM!!! &^$%%$@# </h5>
+                                    <h5 class="modal-title" id="exampleModalLabel"> NAME THAT ALBUM!!! </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <!-- <audio src="../Project-1---Beyonce-Jeopardy/media/firstbeyclip.m4a"> <button> PUSH </button></audio> -->
+
+
+                                    <audio controls>
+                                        <source src="/media/Apeshit clip.mp3" type="audio/ogg">
+                                    </audio>
+
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" id="bey2p1" data-dismiss="modal"> Player
@@ -139,38 +149,42 @@
                     </div>
                 </div>
 
-                
+
             </div>
 
             <div class="threehundreds" id="bey3">
                 <h2> 300 </h2>
 
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-3">
-                        PUSH
-                    </button>
-    
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel"> NAME THAT ALBUM! </h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <!-- <audio src="../Project-1---Beyonce-Jeopardy/media/firstbeyclip.m4a"> <button> PUSH </button></audio> -->
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" id="bey3p1" data-dismiss="modal"> Player
-                                        1 </button>
-                                    <button type="button" class="btn btn-primary" id="bey3p2" data-dismiss="modal"> Player
-                                        2 </button>
-                                </div>
+                    PUSH
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"> NAME THAT ALBUM! </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+                                <audio controls>
+                                    <source src="/media/Radio clip.mp3" type="audio/ogg">
+                                </audio>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" id="bey3p1" data-dismiss="modal"> Player
+                                    1 </button>
+                                <button type="button" class="btn btn-primary" id="bey3p2" data-dismiss="modal"> Player 2
+                                </button>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
 
         </div>
@@ -220,7 +234,8 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel"> WHAT VIDEO GAME DOES BEYONCE ENDORSE? </h5>
+                                    <h5 class="modal-title" id="exampleModalLabel"> WHAT VIDEO GAME DOES BEYONCE ENDORSE?
+                                    </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -240,7 +255,7 @@
                 </div>
             </div>
 
-            
+
             <div class="threehundreds" id="sF3">
                 <h2> 300 </h2>
                 <div> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal-6">
@@ -270,7 +285,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
@@ -354,7 +369,8 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel"> WHAT IS BEYONCE'S OFFICIAL FRAGRANCE ?!? </h5>
+                                    <h5 class="modal-title" id="exampleModalLabel"> WHAT IS BEYONCE'S OFFICIAL FRAGRANCE
+                                        ?!? </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -382,6 +398,9 @@
     <button>
         <div class="finaljep"> FINAL JEOPARDY !!!
         </div>
+
+        <div class="finalJepQ"> HOW MANY MOVIES HAS BEYONCE BEEN IN ?! </div>
+        <div class="finalJepA"> - "What are 12 movies" - </div>
 
     </button>
 

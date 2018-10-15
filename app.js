@@ -10,6 +10,8 @@
 // let playerOne = document.querySeletor("#player1");
 // let playerTwo = document.querySelector("#player2");
 
+
+
 let score1 = document.querySelector("#score1");
 let score2 = document.querySelector("#score2");
 let sonicCoins = 0;
