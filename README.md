@@ -29,4 +29,5 @@ Used Bootstrap
 
 * What you would like to add in version 2
 
-* animations and more questions 
+- animations and more questions 
+- wanted to add the daily double 
