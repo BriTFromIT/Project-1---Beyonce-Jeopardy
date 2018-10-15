@@ -1,52 +1,59 @@
-/* body {
-    background-color: aqua;
-} */
+body {
+    background-image: url("/media/Beyback.jpg");
+    background-size: 100% 100%;
+    /* color: aliceblue; */
+}
 /*  Testing CSS functionality in connection
 with HTML and Javascript */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
 
 #beyjeopardy {
     font-family: 'Roboto Slab', serif;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
-    background-color: blue;
-    border: solid;
+    /* background-color: blue; */
+    /* border: solid; */
+    color: aliceblue;
+
 }
 
 
 .player-score {
-    border: solid;
-    display: grid;
-    text-align: center;
+    /* border: solid; */
+    display: flex;
+    font-size: 100px;
+    /* text-align: center; */
+    color: aliceblue;
     /* defining how many columns there will be */
-    grid-template-columns: 100vw 100vw;
+    justify-content: space-around;
     /* defines how many rows there will be */
 }
-.score {
+
+.score1 {
     margin-left: 85%;
-}
-
-#player1{
-
+    color: aliceblue;
     grid-column: (1/2);
 }
-#player2{
-    
+
+.score2{
+    color: aliceblue;
+    margin-left: 100px;
     grid-column: (2/3);
 }
 
 .categories {
-    border: solid;
+    /* border: solid; */
     display: grid;
     text-align: center;
+    color: aliceblue;
     /* defining how many columns there will be */
     grid-template-columns: repeat(3, 1fr);
     /* defines how many rows there will be */
 }
 
 #Beyonce{
-    
     grid-column: (1/2);
+    
 }
 #sashaFierce{
     
@@ -109,8 +116,9 @@ questions  */
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
     text-align: center;
-    background-color: blue;
-    border: solid;
+    color: aliceblue;
+    /* background-color: blue; */
+    /* border: solid; */
 }
 .finalJepA {
     display: none;
