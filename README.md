@@ -9,7 +9,7 @@ This is my first full project for GA-WDI18 where I demonstrate skills learned in
 
 * A Link to the Trello Board
 
-https://trello.com/b/oWAIJNOf
+https://trello.com/b/oWAIJNOf/project-1-beyonce
 
 * A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
 
