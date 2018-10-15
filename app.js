@@ -13,6 +13,7 @@
 let score1 = document.querySelector("#score1");
 let score2 = document.querySelector("#score2");
 let sonicCoins = 0;
+let sonicCoins2 = 0;
 
 
 
@@ -25,9 +26,9 @@ bey1p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 bey1p2.addEventListener('click', function () {
-    sonicCoins += 100
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 100
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2
 });
 
 
@@ -35,14 +36,14 @@ let bey2p1 = document.querySelector("#bey2p1");
 let bey2p2 = document.querySelector("#bey2p2");
 
 bey2p1.addEventListener('click', function () {
-    sonicCoins += 100
+    sonicCoins += 200
     console.log(sonicCoins)
     score1.innerHTML = sonicCoins
 })
 bey2p2.addEventListener('click', function () {
-    sonicCoins += 100
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 200
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 
@@ -51,14 +52,14 @@ let bey3p1 = document.querySelector("#bey3p1");
 let bey3p2 = document.querySelector("#bey3p2");
 
 bey3p1.addEventListener('click', function () {
-    sonicCoins += 100
+    sonicCoins += 300
     console.log(sonicCoins)
     score1.innerHTML = sonicCoins
 })
 bey3p2.addEventListener('click', function () {
-    sonicCoins += 100
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 300
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 
@@ -74,9 +75,9 @@ sF1p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 sF1p2.addEventListener('click', function () {
-    sonicCoins += 100
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 100
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 let sF2p1 = document.querySelector("#sF2p1");
@@ -89,9 +90,9 @@ sF2p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 sF2p2.addEventListener('click', function () {
-    sonicCoins += 200
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 200
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 let sF3p1 = document.querySelector("#sF3p1");
@@ -104,9 +105,9 @@ sF3p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 sF3p2.addEventListener('click', function () {
-    sonicCoins += 300
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 300
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 let yonce1p1 = document.querySelector("#yonce1p1");
@@ -119,9 +120,9 @@ yonce1p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 yonce1p2.addEventListener('click', function () {
-    sonicCoins += 100
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 100
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 let yonce2p1 = document.querySelector("#yonce2p1");
@@ -134,9 +135,9 @@ yonce2p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 yonce2p2.addEventListener('click', function () {
-    sonicCoins += 200
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 200
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 let yonce3p1 = document.querySelector("#yonce3p1");
@@ -149,9 +150,9 @@ yonce3p1.addEventListener('click', function () {
     score1.innerHTML = sonicCoins
 })
 yonce3p2.addEventListener('click', function () {
-    sonicCoins += 300
-    console.log(sonicCoins)
-    score2.innerHTML = sonicCoins 
+    sonicCoins2 += 300
+    console.log(sonicCoins2)
+    score2.innerHTML = sonicCoins2 
 });
 
 
