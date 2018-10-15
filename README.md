@@ -10,7 +10,9 @@ This is my first full project for GA-WDI18 where I demonstrate skills learned in
 
 * A Link to the Deployed App
 
-http://zealous-keller-b11568.netlify.com
+http://hardcore-northcutt-6d5708.netlify.com
+
+
 
 * A Link to the Trello Board
 
